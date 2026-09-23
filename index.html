@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>[NAME PENDING]</title>
+        <style>
+            body {
+                background-color: #1f1f1f;
+                color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                margin: 0;
+            }
+            main {
+                flex: 1;
+            }
+            footer {
+                background-color: #1f1f1f;
+                color: #ffffff;
+                text-align: center;
+                padding: 1rem;
+                border-top: #7c7c7c solid 1px;
+            }
+            footer a {
+                text-decoration: underline;
+            }
+            a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #7c7c7c;
+                transition: all 0.2s ease-in-out;
+            }
+            nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem;
+                background-color: #1f1f1f;
+                border-bottom: #7c7c7c solid 1px;
+                z-index: 100;
+                position: sticky;
+                top: 0;
+            }
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+            nav ul li {
+                margin-right: 1rem;
+            }
+            #articles {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 1rem;
+                padding: 1rem;
+            }
+            #articles .article {
+                background-color: #2e2e2e;
+                padding: 1.5rem;
+                border-radius: 25px;
+                display: block;
+                transition: all 0.2s ease-in-out;
+            }
+            #articles .article h2 {
+                margin: 0;
+            }
+            #articles .article:hover {
+                background-color: #3e3e3e;
+                transform: translateY(-5px);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html"><h1>[NAME PENDING]</h1></a>
+            <ul>
+                <li><a href="https://github.com/Qtechinnovation/Research/tree/main">GitHub</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="articles">
+                <a href="article.html" class="article">
+                    <h2>[TITLE PENDING]</h2>
+                </a>
+                <a href="article.html" class="article">
+                    <h2>[TITLE PENDING 2]</h2>
+                </a>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2026 Qtechinnovation. Published under <a href="https://github.com/Qtechinnovation/Research/blob/main/LICENSE">MIT License</a>. Hosted on <a href="https://github.com/Qtechinnovation/Research">GitHub</a>.</p>
+        </footer>
+    </body>
+</html>
